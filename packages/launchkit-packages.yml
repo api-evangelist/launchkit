@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: https://trunk.cocoapods.org/api/v1/pods/LaunchKit
+notes: >-
+  LaunchKit shipped one first-party client library: the LaunchKit iOS SDK,
+  published to CocoaPods by Cluster Labs, Inc. (the company behind LaunchKit)
+  and open sourced under Apache 2.0. No first-party LaunchKit packages exist on
+  npm, PyPI, RubyGems, Maven Central, NuGet, pkg.go.dev, Packagist or crates.io
+  — the similarly named packages on those registries are unrelated third-party
+  projects. Publishing stopped when LaunchKit joined Google in 2016.
+packages:
+- language: objective-c
+  registry: cocoapods
+  name: LaunchKit
+  url: https://cocoapods.org/pods/LaunchKit
+  install: pod 'LaunchKit'
+  official: true
+  latest_version: 2.1.4
+  latest_release: '2016-04-11'
+  version_count: 19
+  first_release: '2015-10-29'
+  license: Apache-2.0
+  authors: Cluster Labs, Inc.
+  source: https://github.com/LaunchKit/launchkit-ios.git
+  repository: https://github.com/rsattar/launchkit-ios
+  platforms:
+    ios: '7.0'
+  summary: Useful tools you need to launch your app.
+  status: unmaintained
+registries_checked:
+- registry: cocoapods
+  result: first-party package found (LaunchKit)
+- registry: npm
+  result: no first-party package; matches are unrelated projects reusing the name
+- registry: pypi
+  result: no first-party package (pypi.org/project/launchkit is unrelated)
+- registry: rubygems
+  result: none (404)
+- registry: maven-central
+  result: none
+- registry: nuget
+  result: none
+- registry: pkg.go.dev
+  result: none
+- registry: packagist
+  result: none
+- registry: crates.io
+  result: none

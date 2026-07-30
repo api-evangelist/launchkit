@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: https://launchkit.github.io/
+status: discontinued
+summary: >-
+  LaunchKit's hosted service is discontinued. The company (Cluster Labs, Inc.)
+  joined Google and the product was open sourced; the project site states
+  "LaunchKit has joined Google & the code is now open source." There is no live
+  hosted API, developer portal, status page, SLA or deprecation policy to
+  capture — the remaining surface is a self-hostable open-source codebase.
+milestones:
+- date: '2015-06-21'
+  event: LaunchKit GitHub organization created
+  source: https://github.com/LaunchKit
+- date: '2015-10-29'
+  event: First LaunchKit iOS SDK release on CocoaPods (1.0.0)
+  source: https://trunk.cocoapods.org/api/v1/pods/LaunchKit
+- date: '2016-04-11'
+  event: Final LaunchKit iOS SDK release on CocoaPods (2.1.4)
+  source: https://trunk.cocoapods.org/api/v1/pods/LaunchKit
+- date: '2016'
+  event: LaunchKit joined Google; source released under Apache 2.0 (LICENSE
+    copyright "Cluster Labs, Inc." 2016)
+  source: https://github.com/LaunchKit/LaunchKit/blob/master/LICENSE
+- date: '2022-11-22'
+  event: Last commit pushed to the open-source LaunchKit repository
+  source: https://github.com/LaunchKit/LaunchKit
+versioning:
+  scheme: none-published
+  note: The hosted API was never publicly versioned or documented; the
+    open-source backend exposes an internal REST surface intended for
+    self-hosting.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No published deprecation policy — the whole service was retired.
+sla:
+  url: null
+status_page: null
+domain_note: >-
+  The original domain launchkit.io no longer belongs to the company. It now
+  serves an unrelated "Launch Kit" content-creator marketing blog (Hugo site,
+  copyright 2021-2025) and returns 403 to non-browser clients. Do not treat
+  launchkit.io as a LaunchKit property. The surviving first-party surface is
+  https://launchkit.github.io/ and the GitHub organization.
+successor_surface:
+- https://github.com/LaunchKit/LaunchKit
+- https://launchkit.github.io/
