@@ -1,21 +1,53 @@
 aid: launchkit
-name: LaunchKit *
-description: 'LaunchKit * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+name: LaunchKit
+description: >-
+  LaunchKit was a set of web-based tools for mobile app developers, built by
+  Cluster Labs, Inc. in San Francisco and backed by GV. Its products included
+  Screenshot Builder for App Store screenshots, Review Monitor for App Store
+  review alerts, a Sales Reporter, hosted App Websites, and Super Users and
+  Cloud Config delivered through the LaunchKit iOS SDK. LaunchKit joined Google
+  in 2016 and the codebase was released as open source under Apache 2.0. There
+  is no live hosted LaunchKit API, developer portal, or documentation today; the
+  surviving surface is a self-hostable Django/JavaScript codebase on GitHub plus
+  an unmaintained Objective-C SDK on CocoaPods. The original launchkit.io domain
+  is no longer company-controlled and now serves an unrelated content site.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/12989745?v=4
 url: https://raw.githubusercontent.com/api-evangelist/launchkit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: discontinued-company
+x-status: discontinued
+x-status-note: >-
+  LaunchKit joined Google in 2016 and the product was open sourced. No live API
+  surface exists. The former domain launchkit.io is now owned by an unrelated
+  party and must not be treated as a LaunchKit property.
+x-former-domain: launchkit.io
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Mobile
+- Developer Tools
+- SDK
+- Open Source
+- App Store
+- Discontinued
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +56,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://launchkit.io
+  url: https://launchkit.github.io/
+- type: GitHubOrganization
+  url: https://github.com/LaunchKit
+- type: SourceCode
+  url: https://github.com/LaunchKit/LaunchKit
+- type: Packages
+  url: packages/launchkit-packages.yml
+- type: SDKs
+  url: packages/launchkit-packages.yml
+- type: Lifecycle
+  url: lifecycle/launchkit-lifecycle.yml
+- type: LLMsTxt
+  url: llms/launchkit-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
