@@ -36,7 +36,7 @@ x-status-note: >-
   surface exists. The former domain launchkit.io is now owned by an unrelated
   party and must not be treated as a LaunchKit property.
 x-former-domain: launchkit.io
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
