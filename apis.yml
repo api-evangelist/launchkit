@@ -11,6 +11,17 @@ description: >-
   surviving surface is a self-hostable Django/JavaScript codebase on GitHub plus
   an unmaintained Objective-C SDK on CocoaPods. The original launchkit.io domain
   is no longer company-controlled and now serves an unrelated content site.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
