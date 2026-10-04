@@ -13,6 +13,10 @@ description: >-
   is no longer company-controlled and now serves an unrelated content site.
 deliveryModel:
   model: unknown
+  license_evidence:
+    repo: launchkit/launchkit
+    spdx: NOASSERTION
+    stars: 2167
   open_source: unknown
   commercial: false
   callable_host: false
@@ -20,7 +24,7 @@ deliveryModel:
   confidence: low
   source:
   - repository-unlicensed
-  generated: '2026-08-28'
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -56,7 +60,7 @@ tags:
 - Mobile
 - Developer Tools
 - SDK
-- Open-Source
+- Open Source
 - App Store
 - Discontinued
 tags_raw:
@@ -68,6 +72,7 @@ tags_raw:
 - Open Source
 - App Store
 - Discontinued
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
